@@ -59,4 +59,5 @@ describe("about.vue", () => {
     wrapper.vm.backToHome();
     expect(wrapper.vm.$route.path).toBe("/");
   })
+  
 })
